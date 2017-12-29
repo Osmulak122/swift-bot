@@ -30,7 +30,7 @@ bot.on("message", function(message) {
                 message.author.sendMessage("***Here are the commands!***\n **s!leaders**\n **s!lastvid**\n **s!yt**");
                 break;
             case "yt":
-                message.channel.sendMessage("http://www.youtube.com/c/SwiFTFreestyle");
+                message.channel.sendMessage("<http://www.youtube.com/c/SwiFTFreestyle>");
                 break;
                 
                     
