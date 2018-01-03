@@ -4,7 +4,7 @@ var bot = new Discord.Client();
 const PREFIX = "s!";
 
 bot.on("guildMemberAdd", function(member) {
-    member.guild.channels.find("name", "welcome").sendMessage(member.toString() + ", **Welcome to the SwiFT Community!**\n*Make sure to read server rules and information.*\n*Also dont forget subscribe to our channel*\n*http://www.youtube.com/c/SwiFTFreestyle*")
+    member.guild.channels.find("name", "welcome").sendMessage(member.toString() + ", **Welcome to the SwiFT Community!**\n*Make sure to read server rules and information.*\n*Also dont forget subscribe to our channel*\n*<http://www.youtube.com/c/SwiFTFreestyle>*")
     })
 
 
