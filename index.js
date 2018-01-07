@@ -9,7 +9,7 @@ bot.on("guildMemberAdd", function(member) {
 
 
 bot.on("ready", function() {
-    bot.user.setStatus('Made by Minty!')
+    bot.user.setGame('Made by Minty!')
     console.log("Im Ready!");
 });
 
@@ -27,7 +27,7 @@ bot.on("message", function(message) {
                 message.channel.send("https://ltstyt.be/3e5");
                 break;
             case "help":
-                message.author.send("***Here are the commands!***\n **s!website** *(in progress)*\n **s!leaders**\n **s!lastvid**\n **s!yt**\n **s!twitter**\n **s!socials**");
+                message.channel.send("***Here are the commands!***\n\n **s!website** *(coming soon)*\n **s!join** *(coming soon)*\n **s!leaders**\n **s!lastvid**\n **s!yt**\n **s!twitter**\n **s!socials**");
                 break;
             case "yt":
                 message.channel.send("**Our Youtube** <http://yt.team-swift.eu/>");
