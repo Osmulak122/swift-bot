@@ -27,15 +27,20 @@ bot.on("message", function(message) {
                 message.channel.sendMessage("https://ltstyt.be/3e5");
                 break;
             case "help":
-                message.author.sendMessage("***Here are the commands!***\n **s!leaders**\n **s!lastvid**\n **s!yt**\n **s!twitter**");
+                message.author.sendMessage("***Here are the commands!***\n **s!website** *(in progress)*\n **s!leaders**\n **s!lastvid**\n **s!yt**\n **s!twitter**\n **s!socials**");
                 break;
             case "yt":
-                message.channel.sendMessage("https://www.youtube.com/c/SwiFTFreestyle");
+                message.channel.sendMessage("**Our Youtube** <http://yt.team-swift.eu/>");
                 break;
             case "twitter":
-                message.channel.sendMessage("https://twitter.com/Team_SwiFT_RL");
-                break;    
-                    
+                message.channel.sendMessage("**Our Twitter!** <http://twitter.team-swift.eu/>");
+                break;
+            case "socials":
+                message.channel.sendMessage("**Our Socials!**\n**Youtube** <http://yt.team-swift.eu/>\n**Twitter** <http://twitter.team-swift.eu/>\n**Discord** http://discord.team-swift.eu/");
+                break;        
+            case "website":
+                message.channel.sendMessage("**Our Website!** <http://team-swift.eu/>");
+                break;        
         }
     }  
 )
