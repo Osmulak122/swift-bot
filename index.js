@@ -9,7 +9,7 @@ bot.on("guildMemberAdd", function(member) {
 
 
 bot.on("ready", function() {
-    bot.user.setGame('Made by Minty')
+    bot.user.setStatus('Made by Minty!')
     console.log("Im Ready!");
 });
 
