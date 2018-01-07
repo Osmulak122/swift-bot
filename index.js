@@ -4,12 +4,12 @@ var bot = new Discord.Client();
 const PREFIX = "s!";
 
 bot.on("guildMemberAdd", function(member) {
-    member.guild.channels.find("name", "welcome").sendMessage(member.toString() + ", **Welcome to the SwiFT Community!**\n*Make sure to read server rules and information.*\n*Also dont forget subscribe to our channel*\n*<http://www.youtube.com/c/SwiFTFreestyle>*")
+    member.guild.channels.find("name", "welcome").sendMessage(member.toString() + ", **Welcome to SwiFT Community!**\n*Make sure to read server rules and information.*\n*Also dont forget subscribe to our channel*\n*<http://www.youtube.com/c/SwiFTFreestyle>*")
     })
 
 
 bot.on("ready", function() {
-    bot.user.setGame('Made by Minty#7493')
+    bot.user.setGame('Made by Minty')
     console.log("Im Ready!");
 });
 
@@ -40,7 +40,9 @@ bot.on("message", function(message) {
                 break;        
             case "website":
                 message.channel.sendMessage("**Our Website!** <http://team-swift.eu/>");
-                break;        
+                break;
+            case "join":
+                message.channel.sendMessage("**Application URL!** <http://apply.team-swift.eu/>");
         }
     }  
 )
