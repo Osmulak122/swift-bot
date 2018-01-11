@@ -42,21 +42,7 @@ bot.on("message", function(message) {
                 message.channel.send("**Our Website!** <http://team-swift.eu/>");
                 break;
             case "join":
-                message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
-            case "spam":
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');
-            message.mentions.users.first().send('Someone sent me to spam here!');    
+                message.channel.send("**Application URL!** <http://apply.team-swift.eu/>"); 
         }
     }  
 )
