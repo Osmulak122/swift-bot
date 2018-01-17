@@ -14,6 +14,8 @@ bot.on("ready", function() {
 });
 
 bot.on("message", function(message) {
+    if (message.content.indexOf("kys") === 0) {
+        message.reply("kys");
     if (message.author.equals(bot.user)) return;
 
     if (!message.content.startsWith(PREFIX)) return;
