@@ -35,6 +35,9 @@ bot.on("message", function(message) {
             case "twitter":
                 message.channel.send("**Our Twitter!** <http://twitter.team-swift.eu/>");
                 break;
+            case "join":
+                message.channel.send("**Our Twitch** <http://twitch.team-swift.eu/>");
+                break;
             case "socials":
                 message.channel.send("**Our Socials!**\n**Youtube** <http://yt.team-swift.eu/>\n**Twitter** <http://twitter.team-swift.eu/>\n**Discord** http://discord.team-swift.eu/");
                 break;        
@@ -42,7 +45,10 @@ bot.on("message", function(message) {
                 message.channel.send("**Our Website!** <http://team-swift.eu/>");
                 break;
             case "join":
-                message.channel.send("**Application URL!** <http://apply.team-swift.eu/>"); 
+                message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
+            case "kys":
+                message.reply("kys!");
+                break;
         }
     }  
 )
