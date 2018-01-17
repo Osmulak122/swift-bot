@@ -47,7 +47,7 @@ bot.on("message", function(message) {
             case "join":
                 message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
             case "kys":
-                message.reply("kys!");
+                message.reply.users.first().send('kys');
                 break;
         }
     }  
