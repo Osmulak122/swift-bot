@@ -49,6 +49,9 @@ bot.on("message", function(message) {
             case "kys":
                 message.mentions.users.first().reply('kys');
                 break;
+            case "minty":
+                message.channel.send("**E-mail:** minty@team-swift.eu\n**Steam:** https://steamcommunity.com/id/osmulsky\n**YouTube:** https://www.youtube.com/channel/UCglYxOz6Bmu1lu1IvPZc_aQ");
+                break;
         }
     }  
 )
