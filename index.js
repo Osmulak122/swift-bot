@@ -47,10 +47,10 @@ bot.on("message", function(message) {
             case "join":
                 message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
             case "kys":
-                message.mentions.users.first().reply('kys');
+                message.channel.reply('kys');
                 break;
             case "minty":
-                message.channel.send("**E-mail:** <minty@team-swift.eu>\n**Steam:** <https://steamcommunity.com/id/osmulsky>\n**YouTube:** <https://www.youtube.com/channel/UCglYxOz6Bmu1lu1IvPZc_aQ>");
+                message.channel.send("**E-mail:** minty@team-swift.eu\n**Steam:** <https://steamcommunity.com/id/osmulsky>\n**YouTube:** <https://www.youtube.com/channel/UCglYxOz6Bmu1lu1IvPZc_aQ>");
                 break;
         }
     }  
