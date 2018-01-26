@@ -27,7 +27,7 @@ bot.on("message", function(message) {
                 message.channel.send("https://ltstyt.be/3e5");
                 break;
             case "help":
-                message.channel.send("***Here are the commands!***\n\n**s!website** *(coming soon)*\n**s!join** *(coming soon)*\n**s!leaders**\n**s!lastvid**\n**s!yt**\n**s!twitter**\n**s!socials**\n**s!twitch** (*follower role*)");
+                message.channel.send("***Here are the commands!***\n\n**s!website** *(coming soon)*\n**s!join** *(coming soon)*\n**s!leaders**\n**s!lastvid**\n**s!yt**\n**s!twitter**\n**s!socials**\n**s!twitch**");
                 break;
             case "yt":
                 message.channel.send("**Our Youtube** <http://yt.team-swift.eu/>");
@@ -47,7 +47,7 @@ bot.on("message", function(message) {
             case "join":
                 message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
             case "kys":
-                message.reply('kys');
+                message.channel.send('kys');
                 break;
             case "minty":
                 message.channel.send("**E-mail:** minty@team-swift.eu\n**Steam:** <https://steamcommunity.com/id/osmulsky>\n**YouTube:** <https://www.youtube.com/channel/UCglYxOz6Bmu1lu1IvPZc_aQ>");
