@@ -53,7 +53,7 @@ bot.on("message", function(message) {
                 message.channel.send("**E-mail:** minty@team-swift.eu\n**Steam:** <https://steamcommunity.com/id/osmulsky>\n**YouTube:** <https://www.youtube.com/channel/UCglYxOz6Bmu1lu1IvPZc_aQ>");
                 break;
             case "twitch" :
-                message.channel.send("<https://twitch.tv/teamswift_rl>\n*If u want to get access to hidden Twitch channels and get notification when we start stream, write `?rank Twitch` in #bot_commands channel!
+                message.channel.send("<https://twitch.tv/teamswift_rl>\n*If u want to get access to hidden Twitch channels and get notification when we start stream, write `?rank Twitch` in #bot_commands channel!");
         }
     }  
 )
