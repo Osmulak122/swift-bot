@@ -35,7 +35,7 @@ bot.on("message", function(message) {
             case "twitter":
                 message.channel.send("**Our Twitter!** <http://twitter.team-swift.eu/>");
                 break;
-            case "join":
+            case "stream":
                 message.channel.send("**Our Twitch** <http://twitch.team-swift.eu/>");
                 break;
             case "socials":
