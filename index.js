@@ -46,6 +46,7 @@ bot.on("message", function(message) {
                 break;
             case "join":
                 message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
+                break;
             case "kys":
                 message.channel.send('kys');
                 break;
