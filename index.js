@@ -48,6 +48,7 @@ bot.on("message", function(message) {
                 message.channel.send("**Application URL!** <http://apply.team-swift.eu/>");
                 break;
             case "kys":
+                message.delete();
                 message.channel.send('kys');
                 break;
             case "minty":
