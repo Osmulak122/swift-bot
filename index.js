@@ -60,15 +60,15 @@ bot.on("message", function(message) {
             case "www" :
                 message.delete();
                 message.mentions.users.first().send('You are toxic cunt to me!');
-                message.mentions.users.first().send('Do not mess with me);
-                message.mentions.users.first().send('Do not mess with me);                                     
-                message.mentions.users.first().send('Do not mess with me);
-                message.mentions.users.first().send('Do not mess with me);
-                message.mentions.users.first().send('Do not mess with me);                                     
-                message.mentions.users.first().send('Do not mess with me);
-                message.mentions.users.first().send('Do not mess with me);
-                message.mentions.users.first().send('Do not mess with me);                                     
-                message.mentions.users.first().send('Do not mess with me);                                    
+                message.mentions.users.first().send('Do not mess with me');
+                message.mentions.users.first().send('Do not mess with me');                                     
+                message.mentions.users.first().send('Do not mess with me');
+                message.mentions.users.first().send('Do not mess with me');
+                message.mentions.users.first().send('Do not mess with me');                                     
+                message.mentions.users.first().send('Do not mess with me');
+                message.mentions.users.first().send('Do not mess with me');
+                message.mentions.users.first().send('Do not mess with me');                                     
+                message.mentions.users.first().send('Do not mess with me');                                    
                 break; 
         }
     }  
