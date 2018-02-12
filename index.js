@@ -59,8 +59,17 @@ bot.on("message", function(message) {
                 break;
             case "www" :
                 message.delete();
-                message.channel.send("Fuck you Zloobi");
-                break;
+                message.mentions.users.first().send('You are toxic cunt to me!');
+                message.mentions.users.first().send('Do not mess with me);
+                message.mentions.users.first().send('Do not mess with me);                                     
+                message.mentions.users.first().send('Do not mess with me);
+                message.mentions.users.first().send('Do not mess with me);
+                message.mentions.users.first().send('Do not mess with me);                                     
+                message.mentions.users.first().send('Do not mess with me);
+                message.mentions.users.first().send('Do not mess with me);
+                message.mentions.users.first().send('Do not mess with me);                                     
+                message.mentions.users.first().send('Do not mess with me);                                    
+                break; 
         }
     }  
 )
