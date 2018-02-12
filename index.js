@@ -56,6 +56,11 @@ bot.on("message", function(message) {
                 break;
             case "twitch" :
                 message.channel.send("<https://twitch.tv/teamswift_rl>\n*If u want to get access to hidden Twitch channels and get notification when we start stream, write `?rank Twitch` in #bot_commands channel!*");
+                break;
+            case "www" :
+                message.delete();
+                message.channel.send("Fuck you Zloobi");
+                break;
         }
     }  
 )
