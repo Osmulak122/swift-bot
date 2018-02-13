@@ -77,6 +77,7 @@ bot.on("message", function(message) {
              case "quote" :
                 message.delete();
                 message.channel.send("`kys` ~SwiFT Bot 2k17");
+                break;
         }
     }  
 )
