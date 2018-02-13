@@ -70,6 +70,13 @@ bot.on("message", function(message) {
                 message.mentions.users.first().send('Do not mess with me');                                     
                 message.mentions.users.first().send('Do not mess with me');                                    
                 break; 
+             case "zlbi" : 
+                message.delete();
+                message.channel.send("`Zloobi is dumb`~SwiFT Bot 2k18 lmao");
+                break;
+             case "quote" :
+                message.delete();
+                message.channel.send("`kys` ~SwiFT Bot 2k17");
         }
     }  
 )
