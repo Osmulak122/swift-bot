@@ -9,7 +9,7 @@ bot.on("guildMemberAdd", function(member) {
 
 
 bot.on("ready", function() {
-    bot.user.setGame('Made by Minty!')
+    bot.user.setGame('Made by Minty')
     console.log("Im Ready!");
 });
 
@@ -77,6 +77,10 @@ bot.on("message", function(message) {
              case "quote" :
                 message.delete();
                 message.channel.send("`kys` ~SwiFT Bot 2k17");
+                break;
+             case "four" :
+                message.delete();
+                message.channel.send("2 + 2 is Four - *SwiFT Four*");
                 break;
         }
     }  
