@@ -73,6 +73,10 @@ bot.on("message", function(message) {
                 message.delete();
                 message.channel.send("2 + 2 is Four - *SwiFT Four*");
                 break;
+             case "ha" :
+                message.delete();
+                message.channel.send("Hahaha xD");
+                break;   
         }
     }  
 )
