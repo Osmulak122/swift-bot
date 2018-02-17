@@ -57,18 +57,9 @@ bot.on("message", function(message) {
             case "twitch" :
                 message.channel.send("<https://twitch.tv/teamswift_rl>\n*If u want to get access to hidden Twitch channels and get notification when we start stream, write `?rank Twitch` in #bot_commands channel!*");
                 break;
-            case "www" :
+            case "bp" :
                 message.delete();
-                message.mentions.users.first().send('You are toxic cunt to me!');
-                message.mentions.users.first().send('Do not mess with me');
-                message.mentions.users.first().send('Do not mess with me');                                     
-                message.mentions.users.first().send('Do not mess with me');
-                message.mentions.users.first().send('Do not mess with me');
-                message.mentions.users.first().send('Do not mess with me');                                     
-                message.mentions.users.first().send('Do not mess with me');
-                message.mentions.users.first().send('Do not mess with me');
-                message.mentions.users.first().send('Do not mess with me');                                     
-                message.mentions.users.first().send('Do not mess with me');                                    
+                message.channel.send("O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A-JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA");                                 
                 break; 
              case "zlbi" : 
                 message.delete();
