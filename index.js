@@ -76,7 +76,12 @@ bot.on("message", function(message) {
              case "ha" :
                 message.delete();
                 message.channel.send("Hahaha xD");
+                break;
+             case "mb" :
+                message.delete();
+                message.channel.send("My bad");
                 break;   
+                
         }
     }  
 )
