@@ -71,7 +71,7 @@ bot.on("message", function(message) {
                 break;
              case "four" :
                 message.delete();
-                message.channel.send("2 + 2 is Four - *SwiFT Four*");
+                message.channel.send("Legendary passer - lmao");
                 break;
              case "ha" :
                 message.delete();
