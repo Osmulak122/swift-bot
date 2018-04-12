@@ -21,7 +21,7 @@ bot.on("message", function(message) {
 
         switch (args[0].toLowerCase()) {
             case "leaders":
-                message.channel.send("***Minty*** - 16 Years old, polish beginner editor and designer, IT passionate!\n***Merch*** - 17 Years old, Russian cyka-blyat editor and designer!.");
+                message.channel.send("***Aydentice*** - 16 Years old, polish advanced paint designer, Vegas Pro editor, Pizza passionate\n***Merch*** - 17 Years old, Russian cyka-blyat editor and designer!.");
                 break;
             case "lastvid":
                 message.channel.send("https://ltstyt.be/3e5");
