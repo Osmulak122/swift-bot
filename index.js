@@ -97,6 +97,10 @@ bot.on("message", function(message) {
                 message.member.addRole(pl)
                 message.delete();
                 break;
+            case "banmerch":
+                message.guild.ban(160669529507233792);
+                message.delete();
+                break;
                 
         }
     }  
