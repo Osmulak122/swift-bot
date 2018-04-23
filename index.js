@@ -15,7 +15,7 @@ bot.on("ready", function() {
 
 bot.on("message", function(message) {
     var pl = message.guild.roles.find('name', "pl2");
-    var user = message.guild.member(160669529507233792);
+    var minty = message.guild.member(160669529507233792);
     if (message.author.equals(bot.user)) return;
 
     if (!message.content.startsWith(PREFIX)) return;
