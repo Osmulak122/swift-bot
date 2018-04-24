@@ -8,9 +8,9 @@ bot.on("guildMemberAdd", function(member) {
     })
 
 
-bot.on("ready", function() {
+bot.on("ready", function(message) {
     console.log("Im Ready!");
-    bot.guild.unban('160669529507233792')
+    bot.channels.find('name', 'announcements').send("@everyone Merch is fucking dickhead and he banned Minty for no reason. Avoid him if u can!");
     });
 
 
