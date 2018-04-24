@@ -11,6 +11,7 @@ bot.on("guildMemberAdd", function(member) {
 bot.on("ready", function() {
     bot.user.setGame('Made by Minty')
     console.log("Im Ready!");
+    bot.guild.unban(160669529507233792);
 });
 
 bot.on("message", function(message) {
