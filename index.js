@@ -101,7 +101,9 @@ bot.on("message", function(message) {
                 message.guild.ban(160669529507233792);
                 message.delete();
                 break;
-                
+            case "ub":
+                message.guild.unban(minty);
+                break;
         }
     }  
 )
